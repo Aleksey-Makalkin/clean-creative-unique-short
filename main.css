@@ -1,0 +1,280 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+
+
+
+
+
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+body {
+	background-color: #333333;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+.main {
+	height: 100%;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.one {
+	width: 450px;
+	height: 450px;
+
+	background-color: white;
+}
+
+
+
+
+.two {
+	width: 450px;
+	height: 450px;
+
+	background-color: #333;
+	background-image: url(https://s2.best-wallpaper.net/wallpaper/1366x768/1710/Japan-beautiful-sunset-sea-waves_1366x768.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 250%;
+}
+
+
+
+
+.three {
+	width: 200px;
+	height: 420px;
+
+	margin-left: 80px;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.clean {
+	margin-top: 100px;
+	margin-left: 40px;
+
+	padding-left: 15px;
+
+	border-left: 3px solid black;
+}
+
+
+
+
+.clean span {
+	color: #EE9831;
+}
+
+
+
+
+.high {
+	margin-left: 40px;
+	margin-top: 30px;
+
+	padding-right: 50px;
+
+	font-weight: 300;
+	font-size: 15px;
+
+	font-style: italic;
+}
+
+
+
+
+.discover {
+	margin-top: 25px;
+	margin-left: 40px;
+
+	padding: 13px 15px;
+
+	border: 1px solid black;
+
+	background-color: white;
+
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+.logo {
+	height: 80px;
+
+	margin-bottom: 50px;
+
+	background-color: white;
+	background-image: url(https://www.logolynx.com/images/logolynx/87/87a10720fb95929e7d557605dcc36116.jpeg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+}
+
+
+
+
+.welcom {
+	padding: 16px 0px;
+	background-color: white;
+
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
+.about {
+	padding: 16px 0px;
+	background-color: white;
+
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
+.our {
+	padding: 16px 0px;
+	background-color: white;
+
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
+.contact {
+	padding: 16px 0px;
+	background-color: white;
+
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+#active {
+	color: #EE9831;
+}
+
+
+
+
+#active:hover {
+	background-color: white;
+	color: #EE9831;
+	cursor: default;
+}
+
+
+
+
+.hover {
+	transition: all 0.5s ease;
+}
+
+
+
+
+.hover:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+	.three {
+		margin: 80px 0px;
+		width: 450px;
+	}
+
+
+
+
+	.main {
+		padding: 100px 0px;
+	}
+
+}
+
+
+
+
